@@ -1,0 +1,160 @@
+<!--javascript variables-->
+<html>
+    <body>
+        <p id="demo"></p>
+        <script>
+         var x;
+         document.getElementById("demo").innerHTML=
+          typeof ""+"<br>"+
+          typeof x+"<br>"+
+          typeof 14.5+"<br>"+
+          typeof 14;
+    </script>
+    </body>
+</html>
+<!--addition of two numbers,strings etc..-->
+<html>
+    <head>
+    </head>
+    <body>
+      <p id="demo"></p>
+      <script>
+        var a,b,c,d,e,f;
+        a="10";
+        b=20;
+        c=a+b;
+        d=true;
+        e=d+b;
+        f=d+a;
+        document.getElementById("demo").innerHTML=
+        c+"<br>"+typeof c+"<br>"+e+"<br>"+typeof e+"<br>"+f+"<br>"+typeof f;
+      </script>
+    </body>
+</html>
+<!--javascript arrays-->
+<!--<html>
+ <body>
+        <P id="demo"></P>
+        <script>-->
+            //one kind of declaration of arrays
+            /*
+            var cars=["kal","srav",1];
+            document.getElementById("demo").innerHTML=cars+"<br>"+
+           cars[0]+"<br>"+cars.length+"<br>"+cars[cars.length-1]+"<br>"+typeof cars;
+           */
+          //another kind of declaring the arrays
+          /*var cars=[]
+          cars[0]="kal";
+          cars[1]="srav";
+          cars[2]=8.90000;
+          document.getElementById("demo").innerHTML=cars
+          +"<br>"+typeof cars;
+          */
+          //another kind of decalring the arrays
+          /*
+          var cars=new Array(1,2,"hlo");
+          document.getElementById("demo").innerHTML=cars
+          +"<br>"+typeof cars;
+          */
+          //updating the elements
+          /*
+          const cars=["kal","srav",1];
+          document.getElementById("demo").innerHTML=typeof cars.toString();
+          */
+         //objects in javascript
+         /*var person={firstname:"kalyani",lastname:"jammu",age:19};
+         document.getElementById("demo").innerHTML=person.firstname
+         +"<br>"+person.lastname+"<br>"+person.age;
+         */
+        //looping array elements
+        /*
+        var fruits=["banana","mango","apple","orange"];
+        let flen=fruits.length;
+        let text="<ul>";
+        for(let i=0;i<flen;i++){
+            text+="<li>"+fruits[i]+"</li>";
+        }
+        text+="</ul>";
+        document.getElementById("demo").innerHTML=text;
+        */
+       //output not coming
+       /*
+       var fruits=["banana","orange","apple","mango"];
+       let text="<ul>";
+        fruits.forEach(myFunction);
+        text+="</ul>";
+        document.getElementById("demo").innerHTML=text;
+        function myfunction(value){
+            text+="<li>"+value+"</li>";
+        } 
+        */
+       //adding element to an array
+       /*
+       var h=["hi","hlo","forget","everthing"];
+       h.push("live peacefully");
+       document.getElementById("demo").innerHTML=h;
+       */
+      //another way for adding the element
+      /*
+      var h=["hi","hlo","forget","everthing"];
+      h[h.length]="kalyani";
+      document.getElementById("demo").innerHTML=h;
+      */
+     //array use numbered indexes and objects uses named indexes
+     /*
+     const pe=[];
+     pe["firstname"]="john";
+     pe["lastname"]="doe";
+     pe["age"]=19;
+     document.getElementById("demo").innerHTML=pe+"<br>"+typeof pe+"<br>"+pe[0];
+     */
+    /*
+    var p=new Array(40);
+    document.getElementById("demo").innerHTML=p;
+    */
+   //how to recognize that given variable represents the array
+   /*
+   var p=new Array(40,80);
+   document.getElementById("demo").innerHTML=p instanceof Array;
+   document.getElementById("demo").innerHTML=Array.isArray(p);
+  */
+ //relational/comparsional operators
+ /*
+  var x,y;
+  x=5;
+  y="5";
+  document.getElementById("demo").innerHTML=x===y;
+  */
+
+        <!--</script>
+    </body>
+</html>-->
+<!--<html>
+    <body>
+        <script>
+            function f(value){
+                let text="hlo";
+                text=text+value;
+              document.getElementById("hi").innerHTML=text;
+            }
+        </script>
+        <p id="hi"></p>
+        <button onclick="f(10)" ></butto>
+    </body>
+</html>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
